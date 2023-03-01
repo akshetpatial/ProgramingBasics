@@ -1,0 +1,45 @@
+########################## terminal ##################################
+
+PS E:\2023_project\Programing_Basics\C_File> ls
+
+
+    Directory: E:\2023_project\Programing_Basics\C_File
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       28-02-2023  08:11 PM            165 FirstClass.java
+
+
+PS E:\2023_project\Programing_Basics\C_File> javac .\FirstClass.java
+PS E:\2023_project\Programing_Basics\C_File> java .\FirstClass.java
+hello world!
+PS E:\2023_project\Programing_Basics\C_File> java .\FirstClass.class
+Error: Could not find or load main class .\FirstClass.class
+Caused by: java.lang.ClassNotFoundException: /\FirstClass/class
+PS E:\2023_project\Programing_Basics\C_File> java FirstClass.class
+Error: Could not find or load main class FirstClass.class
+Caused by: java.lang.ClassNotFoundException: FirstClass.class
+PS E:\2023_project\Programing_Basics\C_File> java .\FirstClass.java
+hello world!
+PS E:\2023_project\Programing_Basics\C_File> java FirstClass.java
+hello world!
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at FirstClass.main(FirstClass.java:10)
+PS E:\2023_project\Programing_Basics\C_File> java FirstClass.java akshet patial
+hello world!
+akshet
+PS E:\2023_project\Programing_Basics\C_File> java FirstClass.java akshet patial
+hello world!
+akshet
+PS E:\2023_project\Programing_Basics\C_File> java FirstClass.java akshet patial
+hello world!
+akshet
+patial
+PS E:\2023_project\Programing_Basics\C_File> javac .\FirstClass.java
+PS E:\2023_project\Programing_Basics\C_File> java FirstClass.java akshet patial
+hello world!
+akshet
+patial
+PS E:\2023_project\Programing_Basics\C_File>
+

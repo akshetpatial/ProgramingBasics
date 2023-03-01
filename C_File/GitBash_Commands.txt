@@ -1,0 +1,190 @@
+########################## GitBash ##################################
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ where javac
+C:\Program Files\Common Files\Oracle\Java\javapath\javac.exe
+C:\Program Files\Java\jdk-15.0.1\bin\javac.exe
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ C:\Programs Files\Java\jdk-15.0.1\bin
+bash: C:Programs: command not found
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls C:\Programs Files\Java\jdk-15.0.1\bin
+ls: cannot access 'C:Programs': No such file or directory
+ls: cannot access 'FilesJavajdk-15.0.1bin': No such file or directory
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls
+FirstClass.class  FirstClass.java  GitBash_Commands.txt  Termianl_Commands.txt
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/
+'$AV_ASW'/                  found.000/               'Program Files (x86)'/
+'$Recycle.Bin'/             hiberfil.sys              ProgramData/
+'$SysReset'/                Keil_v5/                  Python310/
+'$WINDOWS.~BT'/             keytabs/                  Python39/
+'$WinREAgent'/              Modeltech_pe_edu_10.4a/   Recovery/
+ AMD/                       MSOCache/                 rei/
+'Android Studio'/          'New folder'/              swapfile.sys
+ bootmgr                    OneDriveTemp/            'System Volume Information'/
+ BOOTNXT                    OrCAD/                    Users/
+ Config.Msi/                pagefile.sys              Windows/
+ data/                      PerfLogs/                 YOGISOFT/
+'Documents and Settings'@  'Program Files'/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/Programs FilesJava/jdk-15.0.1/bin/
+ls: cannot access '/c/Programs': No such file or directory
+ls: cannot access 'FilesJava/jdk-15.0.1/bin/': No such file or directory
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/
+'$AV_ASW'/                  found.000/               'Program Files (x86)'/
+'$Recycle.Bin'/             hiberfil.sys              ProgramData/
+'$SysReset'/                Keil_v5/                  Python310/
+'$WINDOWS.~BT'/             keytabs/                  Python39/
+'$WinREAgent'/              Modeltech_pe_edu_10.4a/   Recovery/
+ AMD/                       MSOCache/                 rei/
+'Android Studio'/          'New folder'/              swapfile.sys
+ bootmgr                    OneDriveTemp/            'System Volume Information'/
+ BOOTNXT                    OrCAD/                    Users/
+ Config.Msi/                pagefile.sys              Windows/
+ data/                      PerfLogs/                 YOGISOFT/
+'Documents and Settings'@  'Program Files'/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/'Program Files'/
+ 7-Zip/                   nodejs/
+ AMD/                     Notepad++/
+ Android/                 OpenSSL-Win64/
+ AnsysEM/                 OPPO/
+'Application Verifier'/  'Outlook Files'/
+ BlueStacks_nxt/          postman/
+ BraveSoftware/           PowerISO/
+'Common Files'/           python/
+ CUAssistant/             Realtek/
+'Data Recovery'/         'Reference Assemblies'/
+ DAUM/                    Reimage/
+ desktop.ini              rempl/
+ Elantech/                Samsung/
+ Git/                    'Sound recordings'/
+ Google/                 'Uninstall Information'/
+ Inkscape/                UNP/
+'internet explorer'/     'Windows Defender'/
+ Java/                   'Windows Defender Advanced Threat Protection'/
+ JetBrains/              'Windows Mail'/
+ MATLAB/                 'Windows Media Player'/
+'Microsoft Office'/      'Windows Multimedia Platform'/
+ MIT/                    'windows nt'/
+ MongoDB/                'Windows Photo Viewer'/
+'Mozilla Firefox'/       'Windows Portable Devices'/
+ MPC-HC/                 'Windows Security'/
+ MSBuild/                'Windows Sidebar'/
+'My Data Sources'/        WindowsApps/
+ MySQL/                   WindowsPowerShell/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/'Program Files'/'bin'/
+ls: cannot access '/c/Program Files/bin/': No such file or directory
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/'Program Files'/'Java'/
+jdk-15.0.1/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/'Program Files'/'Java'/jdk-15.0.1/
+bin/  conf/  COPYRIGHT  include/  jmods/  legal/  lib/  release
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/'Program Files'/'Java'/jdk-15.0.1/bin
+api-ms-win-core-console-l1-1-0.dll*             javac.exe*
+api-ms-win-core-console-l1-2-0.dll*             javadoc.exe*
+api-ms-win-core-datetime-l1-1-0.dll*            javajpeg.dll*
+api-ms-win-core-debug-l1-1-0.dll*               javap.exe*
+api-ms-win-core-errorhandling-l1-1-0.dll*       javaw.exe*
+api-ms-win-core-file-l1-1-0.dll*                jawt.dll*
+api-ms-win-core-file-l1-2-0.dll*                jcmd.exe*
+api-ms-win-core-file-l2-1-0.dll*                jconsole.exe*
+api-ms-win-core-handle-l1-1-0.dll*              jdb.exe*
+api-ms-win-core-heap-l1-1-0.dll*                jdeprscan.exe*
+api-ms-win-core-interlocked-l1-1-0.dll*         jdeps.exe*
+api-ms-win-core-libraryloader-l1-1-0.dll*       jdwp.dll*
+api-ms-win-core-localization-l1-2-0.dll*        jfr.exe*
+api-ms-win-core-memory-l1-1-0.dll*              jhsdb.exe*
+api-ms-win-core-namedpipe-l1-1-0.dll*           jimage.dll*
+api-ms-win-core-processenvironment-l1-1-0.dll*  jimage.exe*
+api-ms-win-core-processthreads-l1-1-0.dll*      jinfo.exe*
+api-ms-win-core-processthreads-l1-1-1.dll*      jli.dll*
+api-ms-win-core-profile-l1-1-0.dll*             jlink.exe*
+api-ms-win-core-rtlsupport-l1-1-0.dll*          jmap.exe*
+api-ms-win-core-string-l1-1-0.dll*              jmod.exe*
+api-ms-win-core-synch-l1-1-0.dll*               jpackage.dll*
+api-ms-win-core-synch-l1-2-0.dll*               jpackage.exe*
+api-ms-win-core-sysinfo-l1-1-0.dll*             jps.exe*
+api-ms-win-core-timezone-l1-1-0.dll*            jrunscript.exe*
+api-ms-win-core-util-l1-1-0.dll*                jshell.exe*
+api-ms-win-crt-conio-l1-1-0.dll*                jsound.dll*
+api-ms-win-crt-convert-l1-1-0.dll*              jstack.exe*
+api-ms-win-crt-environment-l1-1-0.dll*          jstat.exe*
+api-ms-win-crt-filesystem-l1-1-0.dll*           jstatd.exe*
+api-ms-win-crt-heap-l1-1-0.dll*                 keytool.exe*
+api-ms-win-crt-locale-l1-1-0.dll*               kinit.exe*
+api-ms-win-crt-math-l1-1-0.dll*                 klist.exe*
+api-ms-win-crt-multibyte-l1-1-0.dll*            ktab.exe*
+api-ms-win-crt-private-l1-1-0.dll*              lcms.dll*
+api-ms-win-crt-process-l1-1-0.dll*              le.dll*
+api-ms-win-crt-runtime-l1-1-0.dll*              management.dll*
+api-ms-win-crt-stdio-l1-1-0.dll*                management_agent.dll*
+api-ms-win-crt-string-l1-1-0.dll*               management_ext.dll*
+api-ms-win-crt-time-l1-1-0.dll*                 mlib_image.dll*
+api-ms-win-crt-utility-l1-1-0.dll*              msvcp140.dll*
+attach.dll*                                     net.dll*
+awt.dll*                                        nio.dll*
+dt_shmem.dll*                                   prefs.dll*
+dt_socket.dll*                                  rmi.dll*
+fontmanager.dll*                                rmid.exe*
+freetype.dll*                                   rmiregistry.exe*
+instrument.dll*                                 saproc.dll*
+j2gss.dll*                                      serialver.exe*
+j2pcsc.dll*                                     server/
+j2pkcs11.dll*                                   splashscreen.dll*
+jaas.dll*                                       sspi_bridge.dll*
+jabswitch.exe*                                  sunec.dll*
+jaccessinspector.exe*                           sunmscapi.dll*
+jaccesswalker.exe*                              ucrtbase.dll*
+jaotc.exe*                                      vcruntime140.dll*
+jar.exe*                                        vcruntime140_1.dll*
+jarsigner.exe*                                  verify.dll*
+java.dll*                                       w2k_lsa_auth.dll*
+java.exe*                                       windowsaccessbridge-64.dll*
+javaaccessbridge.dll*                           zip.dll*
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls /c/'Program Files'/'Java'/jdk-15.0.1/bin | grep javac
+javac.exe*
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ echo $PATH
+/c/Users/Lenovo/AppData/Roaming/SPB_16.6/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/Lenovo/AppData/Roaming/SPB_16.6/bin:/c/Python310/Scripts:/c/Python310:/c/Python39/Scripts:/c/Python39:/c/Program Files/Common Files/Oracle/Java/javapath:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files/MATLAB/MATLAB Production Server/R2015a/runtime/win64:/c/Program Files/MATLAB/MATLAB Production Server/R2015a/bin:/c/Program Files/MATLAB/MATLAB Production Server/R2015a/polyspace/bin:/c/ProgramData/chocolatey/bin:/cmd:/c/Program Files/Java/jdk-15.0.1/bin:/c/Program Files/MIT/Kerberos/bin:/c/Program Files/nodejs:/c/Program Files/MySQL/MySQL Shell 8.0/bin:/c/OrCAD/OrCAD_16.6_Lite/tools/pcb/bin:/c/OrCAD/OrCAD_16.6_Lite/tools/fet/bin:/c/OrCAD/OrCAD_16.6_Lite/OpenAccess/bin/win32/opt:/c/OrCAD/OrCAD_16.6_Lite/tools/bin:/c/OrCAD/OrCAD_16.6_Lite/tools/Capture:/c/OrCAD/OrCAD_16.6_Lite/tools/PSpice:/c/Users/Lenovo/AppData/Local/Programs/Python/Python37/Scripts:/c/Users/Lenovo/AppData/Local/Programs/Python/Python37:/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/c/Modeltech_pe_edu_10.4a/win32pe_edu:/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files/MongoDB/Server/4.4/bin:/c/Users/Lenovo/AppData/Roaming/npm:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$ ls -a /c/
+'$AV_ASW'/         'Documents and Settings'@  'Program Files (x86)'/
+'$Recycle.Bin'/     found.000/                 ProgramData/
+'$SysReset'/        hiberfil.sys               Python310/
+'$WINDOWS.~BT'/     Keil_v5/                   Python39/
+'$WinREAgent'/      keytabs/                   Recovery/
+ ./                 Modeltech_pe_edu_10.4a/    rei/
+ ../                MSOCache/                  swapfile.sys
+ AMD/              'New folder'/              'System Volume Information'/
+'Android Studio'/   OneDriveTemp/              Users/
+ bootmgr            OrCAD/                     Windows/
+ BOOTNXT            pagefile.sys               YOGISOFT/
+ Config.Msi/        PerfLogs/
+ data/             'Program Files'/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics/C_File
+$
