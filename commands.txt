@@ -1,0 +1,122 @@
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics
+$ git init
+Initialized empty Git repository in E:/2023_project/Programing_Basics/.git/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Basics/
+        C_File/
+        Flow_Of_Program_Notes.pdf
+        Handwritten_notes_Java_Basics.pdf
+        Intro_to_Programming_Notes.pdf
+        Java Intro.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Basics/.idea/.gitignore
+        new file:   Basics/.idea/.name
+        new file:   Basics/.idea/misc.xml
+        new file:   Basics/.idea/modules.xml
+        new file:   Basics/.idea/uiDesigner.xml
+        new file:   Basics/Basics.iml
+        new file:   Basics/out/production/Basics/com/akshet/CountingOccurrence.class
+        new file:   Basics/out/production/Basics/com/akshet/FibonacciSeries.class
+        new file:   Basics/out/production/Basics/com/akshet/PrimeNumbers.class
+        new file:   Basics/out/production/Basics/com/akshet/ReverseNumber.class
+        new file:   Basics/src/com/akshet/CountingOccurrence.java
+        new file:   Basics/src/com/akshet/FibonacciSeries.java
+        new file:   Basics/src/com/akshet/PrimeNumbers.java
+        new file:   Basics/src/com/akshet/ReverseNumber.java
+        new file:   C_File/FirstClass.class
+        new file:   C_File/FirstClass.java
+        new file:   C_File/GitBash_Commands.txt
+        new file:   C_File/Termianl_Commands.txt
+        new file:   Flow_Of_Program_Notes.pdf
+        new file:   Handwritten_notes_Java_Basics.pdf
+        new file:   Intro_to_Programming_Notes.pdf
+        new file:   Java Intro.pdf
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git commit -m "initialized the git repository"
+[master (root-commit) 5db5e05] initialized the git repository
+ 22 files changed, 655 insertions(+)
+ create mode 100644 Basics/.idea/.gitignore
+ create mode 100644 Basics/.idea/.name
+ create mode 100644 Basics/.idea/misc.xml
+ create mode 100644 Basics/.idea/modules.xml
+ create mode 100644 Basics/.idea/uiDesigner.xml
+ create mode 100644 Basics/Basics.iml
+ create mode 100644 Basics/out/production/Basics/com/akshet/CountingOccurrence.class
+ create mode 100644 Basics/out/production/Basics/com/akshet/FibonacciSeries.class
+ create mode 100644 Basics/out/production/Basics/com/akshet/PrimeNumbers.class
+ create mode 100644 Basics/out/production/Basics/com/akshet/ReverseNumber.class
+ create mode 100644 Basics/src/com/akshet/CountingOccurrence.java
+ create mode 100644 Basics/src/com/akshet/FibonacciSeries.java
+ create mode 100644 Basics/src/com/akshet/PrimeNumbers.java
+ create mode 100644 Basics/src/com/akshet/ReverseNumber.java
+ create mode 100644 C_File/FirstClass.class
+ create mode 100644 C_File/FirstClass.java
+ create mode 100644 C_File/GitBash_Commands.txt
+ create mode 100644 C_File/Termianl_Commands.txt
+ create mode 100644 Flow_Of_Program_Notes.pdf
+ create mode 100644 Handwritten_notes_Java_Basics.pdf
+ create mode 100644 Intro_to_Programming_Notes.pdf
+ create mode 100644 Java Intro.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git log
+commit 5db5e05d11a8b6ef54563d77844aab7edc0ac1f2 (HEAD -> master)
+Author: AKSHET PATIAL <akshet.patial@gmail.com>
+Date:   Wed Mar 1 18:01:27 2023 +0530
+
+    initialized the git repository
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ touch commands.txt
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ vi c
+C_File/       commands.txt
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ vi c
+C_File/       commands.txt
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ vi commands.txt
+
