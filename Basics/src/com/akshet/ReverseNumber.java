@@ -11,13 +11,11 @@ public class ReverseNumber {
 
         int temp=num;
         int rNumber=0;
-        int count=0;
         int rem;
         while(temp>0){
             rem=temp%10;
-            rNumber=(int) (rNumber*10) + rem;
+            rNumber= (rNumber*10) + rem;
             temp=temp/10;
-            count++;
         }
         System.out.println("The Reverse of the number "+num+" is: "+rNumber);
     }
