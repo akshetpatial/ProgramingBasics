@@ -412,4 +412,376 @@ $ git log -4 --all --graph
 |     created the Armstrong Number file
 
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Arrays and Arraylist.pdf
+        Functions and Methods.pdf
+        Linearsearch.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git add Arrays\ and\ Arraylist.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Arrays and Arraylist.pdf
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Functions and Methods.pdf
+        Linearsearch.pdf
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git commit -m "Chaneged the file name to Array and Arraylist"
+[master 8510a39] Chaneged the file name to Array and Arraylist
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Arrays and Arraylist.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 283 bytes | 283.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/akshetpatial/ProgramingBasics.git
+   4d93ad0..8510a39  master -> master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git log --all --graph -5
+* commit 8510a3940dccffd2af38ce00098ebc7c15f68f1e (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 14:09:37 2023 +0530
+|
+|     Chaneged the file name to Array and Arraylist
+|
+* commit 4d93ad06cb63e65323544160ce013932c4a3ccb7
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 02:34:54 2023 +0530
+|
+|     created the SwapArray file
+|
+* commit 6de5dae10337f4193794568912c47811647ce0f8
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 01:50:31 2023 +0530
+|
+|     Created the 2 D Matrix Program
+|
+* commit afecc53f0e40f58bfbe46de559a748116b848904
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Fri Mar 3 11:25:36 2023 +0530
+|
+|     added the Handwritten notes on arrays and arraylist.pdf file
+|
+* commit fa62fdec27504a107874fac91cdf7210d7ed9706
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Fri Mar 3 11:24:31 2023 +0530
+|
+|     added the commands related to pushing the files in git in command.txt file
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git reset ^C
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git reset 4d93ad06cb63e65323544160ce013932c4a3ccb7
+Unstaged changes after reset:
+D       Handwritten notes on arrays and arraylist.pdf
+D       Handwritten notes on functions and methods.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Arrays and Arraylist.pdf
+        Functions and Methods.pdf
+        Linearsearch.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git add Arrays\ and\ Arraylist.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Arrays and Arraylist.pdf
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Functions and Methods.pdf
+        Linearsearch.pdf
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git commit -m "Changed the file name to Array and Arraylist"
+[master d332c41] Changed the file name to Array and Arraylist
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Arrays and Arraylist.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git push origin master
+To https://github.com/akshetpatial/ProgramingBasics.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/akshetpatial/ProgramingBasics.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git push origin master --force
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 282 bytes | 282.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/akshetpatial/ProgramingBasics.git
+ + 8510a39...d332c41 master -> master (forced update)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git log --all --graph -5
+* commit d332c414827cb8214aac8c9bceab7ab15daae85c (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 14:12:25 2023 +0530
+|
+|     Changed the file name to Array and Arraylist
+|
+* commit 4d93ad06cb63e65323544160ce013932c4a3ccb7
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 02:34:54 2023 +0530
+|
+|     created the SwapArray file
+|
+* commit 6de5dae10337f4193794568912c47811647ce0f8
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 01:50:31 2023 +0530
+|
+|     Created the 2 D Matrix Program
+|
+* commit afecc53f0e40f58bfbe46de559a748116b848904
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Fri Mar 3 11:25:36 2023 +0530
+|
+|     added the Handwritten notes on arrays and arraylist.pdf file
+|
+* commit fa62fdec27504a107874fac91cdf7210d7ed9706
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Fri Mar 3 11:24:31 2023 +0530
+|
+|     added the commands related to pushing the files in git in command.txt file
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Functions and Methods.pdf
+        Linearsearch.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git add Functions\ and\ Methods.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Functions and Methods.pdf
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Linearsearch.pdf
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git commit -m "Changed the file name to Functions and Methods"
+[master 040134a] Changed the file name to Functions and Methods
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Functions and Methods.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Linearsearch.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 283 bytes | 283.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/akshetpatial/ProgramingBasics.git
+   d332c41..040134a  master -> master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Linearsearch.pdf
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git add Linearsearch.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Linearsearch.pdf
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    Handwritten notes on arrays and arraylist.pdf
+        deleted:    Handwritten notes on functions and methods.pdf
+        new file:   Linearsearch.pdf
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git commit -m "Added the file name LinearSearch"
+[master b22bee0] Added the file name LinearSearch
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 Handwritten notes on arrays and arraylist.pdf
+ delete mode 100644 Handwritten notes on functions and methods.pdf
+ create mode 100644 Linearsearch.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 147.23 KiB | 7.75 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/akshetpatial/ProgramingBasics.git
+   040134a..b22bee0  master -> master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Programing_Basics (master)
+$ git log --all --graph -5
+* commit b22bee00a664afeb2250ef40e58537d767a389fc (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 14:15:56 2023 +0530
+|
+|     Added the file name LinearSearch
+|
+* commit 040134aea27d7b0f52907b28dc4c0fede404da4f
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 14:14:32 2023 +0530
+|
+|     Changed the file name to Functions and Methods
+|
+* commit d332c414827cb8214aac8c9bceab7ab15daae85c
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 14:12:25 2023 +0530
+|
+|     Changed the file name to Array and Arraylist
+|
+* commit 4d93ad06cb63e65323544160ce013932c4a3ccb7
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 02:34:54 2023 +0530
+|
+|     created the SwapArray file
+|
+* commit 6de5dae10337f4193794568912c47811647ce0f8
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 4 01:50:31 2023 +0530
+|
+|     Created the 2 D Matrix Program
 
